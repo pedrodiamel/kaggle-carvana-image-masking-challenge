@@ -1,0 +1,6 @@
+{
+  "cars":
+  {
+    "data_path": "/home/user/carseg/carsegmentation/pytorch-semseg-master/db/train"
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "caffe flavor": "NVIDIA",
+    "caffe version": "0.15.13",
+    "creation time": "2017-09-13 16:48:50.182999",
+    "dataset_id": "20170912-063029-304f",
+    "deploy file": "deploy.prototxt",
+    "digits version": "5.0.0",
+    "framework": "caffe",
+    "id": "20170913-164850-6c13",
+    "image dimensions": [
+        1024,
+        1024,
+        3
+    ],
+    "job id": "20170913-164850-6c13",
+    "mean file": "",
+    "model file": "original.prototxt",
+    "name": "fcnalexmodel_car_adm_1024x1024_i016",
+    "python layer file": "digits_python_layers.py",
+    "snapshot file": "snapshot_iter_35640.caffemodel",
+    "solver file": "solver.prototxt",
+    "status": "Done",
+    "train_val file": "train_val.prototxt",
+    "username": "pedrodiamel"
+}

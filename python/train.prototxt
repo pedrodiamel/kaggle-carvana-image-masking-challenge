@@ -1,0 +1,25 @@
+name: "FCNnet"
+layer {
+  name: "data"
+  type: "Python"
+  top: "data"
+  top: "label"
+  python_param {
+    module: "caffelayerpython"
+    layer: "carLoaderLayer"
+    param_str: "{\"src_file\": \"../db/car\", \"batch_size\":2, \"im_shape\":100 }"
+  }
+}
+layer {
+  name: "tdata"
+  type: "Python"
+  bottom: "data"
+  bottom: "label"
+  top: "tdata"
+  top: "tlabel"
+  python_param {
+    module: "caffelayerpython"
+    layer: "augmentationLayer"
+    param_str: "{\"angle\":10, \"translation\":0.2, \"warp\":0 }"
+  }
+}
