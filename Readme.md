@@ -28,6 +28,3 @@ Automatically identify the boundaries of the car in an image
 - Pedro Diamel Marrero Fernandez (pdmf@cin.ufpe.br)
 - Fidel Alejandro Guerrero Peña
 
-## License
-
-TODO: Write license
