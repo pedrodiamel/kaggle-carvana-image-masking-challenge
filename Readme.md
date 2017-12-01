@@ -27,4 +27,5 @@ Automatically identify the boundaries of the car in an image
 
 - Pedro Diamel Marrero Fernandez (pdmf@cin.ufpe.br)
 - Fidel Alejandro Guerrero Peña
+- Tsang Ing Ren
 
