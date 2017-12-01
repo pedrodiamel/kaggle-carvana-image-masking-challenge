@@ -1,7 +1,7 @@
 # Carvana Image Masking Challenge
 Automatically identify the boundaries of the car in an image
 
-![](rec/29bb3ece3180_11.jpg)
+![](rec/result.png)
 
 ## Result
 
