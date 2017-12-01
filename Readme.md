@@ -3,8 +3,20 @@ Automatically identify the boundaries of the car in an image
 
 ![](rec/29bb3ece3180_11.jpg)
 
-## Installation
-## Usage
+## Result
+
+Framework   | Arq      | Result
+------------|----------|------
+Caffe       |CN-Alexnet|0.99
+Pytorch     |Unet      |0.992
+TennsorFlow |Unet      |-
+Pytorch     |Unet+CRF: |0.993
+
+
+https://www.kaggle.com/c/carvana-image-masking-challenge/leaderboard
+
+Place: 496 :(
+
 ### Dataset
 
 - [metadata](https://www.kaggle.com/c/carvana-image-masking-challenge/download/metadata.csv.zip)
